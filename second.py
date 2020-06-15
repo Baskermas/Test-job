@@ -18,7 +18,7 @@ for i in capacity:
 for i in sum_end:
     max_sum += [i * (sum_end.index(i) +1)]
 print(sum(max_sum))
-
+# 58003822 - Ответ на 4 пункт
 
 
 
