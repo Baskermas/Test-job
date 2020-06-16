@@ -1,4 +1,4 @@
-read = open('/home/ivan/Downloads/names.txt')
+read = open('/names.txt')
 capacity_temporary = []
 capacity = []
 sum_end  = []
