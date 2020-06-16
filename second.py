@@ -1,4 +1,4 @@
-read = open('/names.txt')
+read = open('/home/ivan/Downloads/names.txt')
 capacity_temporary = []
 capacity = []
 sum_end  = []
@@ -15,14 +15,7 @@ for i in capacity:
     for j in i:
         summ += ord(j) - 64
     sum_end += [summ]
-for i in sum_end:
-    max_sum += [i * (sum_end.index(i) +1)]
+for id , i in enumerate(sum_end):
+    max_sum += [i * id +1 ]
 print(sum(max_sum))
-# 58003822 - Ответ на 4 пункт
-
-
-
-
-
-
-
+### 871534379
